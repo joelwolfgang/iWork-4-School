@@ -1,0 +1,266 @@
+body {
+	background: #333175 url('../media/images/bg.png') no-repeat;
+	font-family:"Arial", Arial, sans-serif;
+	margin-bottom: 0px;
+	font-size: 62.5%;
+	}
+
+h1 {
+	font-size: 20pt;
+	margin: 3px 0 10px 0;
+	}
+
+h2 {
+	font-size: 14pt;
+	}
+
+h3 {
+	font-size: 12pt;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	}
+
+#wrapper {
+	width: 970px;
+	margin: 0 auto;
+	}
+
+#wrapper a{
+	color: #353376;
+	text-decoration: none;
+	}
+
+#wrapper a:hover {
+	text-decoration: underline;
+	}
+
+#menu {
+	width: 970px;
+	text-align: right;
+	margin-top: 15px;
+	}
+
+#header_bottom {
+	margin-top: 15px;
+	width: 970px;
+	height: 155px;
+	}
+
+#header_main_content {
+	margin-left: 4px;
+	float: left;
+	}
+
+#header_main_content_right {
+	background: #4D4A8F;
+	-moz-border-radius-bottomright: 10px;
+    -webkit-border-bottom-right-radius: 10px;
+	width: 342px;
+	height: 119px;
+	float: left;
+	padding: 0 10px 10px 10px;
+	color: #ffffff;
+	font-size: 1.5em;
+	}
+
+#content_header {
+	clear:both;
+	margin-top: 5px;
+	width: 970px;
+	height: 15px;
+	background: url('../media/images/main_top.png') no-repeat;
+	}
+	
+#content_main {
+	width: 910px;
+	min-height: 200px;
+	padding: 0px 30px 0px 30px;
+	background: url('../media/images/main_middle.png');
+	}
+
+#top-full{
+	width: 910px;
+}	
+
+#top-full span {
+	margin-left: 91px;
+}
+	
+#left_column {
+	width: 115px;
+	float: left;
+	line-height: 18px;
+	}
+
+#left_column a {
+	color: #111111;
+	text-decoration: none;
+	font-size: 10pt;
+	text-transform: capitalize;
+	}
+
+#left_column a:hover {
+	color: #000000;
+	text-decoration: underline;
+	}
+
+#template {
+	float: left;
+	width: 495px;
+	padding: 0px 5px 0px 5px;
+	font-size: 1.4em;
+	line-height: 1.4em;
+	border-right: #000000 1px dotted;
+	border-left: #000000 1px dotted;
+	}
+
+#template_title {
+	width: 495px;
+	}
+
+#template table {
+	margin: 0 16px;
+	width: 468px;
+	}
+
+#opportunity {
+	width: 250px;
+	height: 250px;
+	margin: 0 16px 10px 11px;
+	float: left;
+	}
+
+#template_content {
+	
+	margin: 0 11px;
+	}
+
+#content_heading {
+	margin: 0 5px 0 5px;
+	padding-bottom: 10px;
+	border-bottom: 1px dotted #000000;
+	}
+
+#template img {
+	border: 3px #353376 solid;
+	}
+
+#right_column {
+	float: left;
+	width: 250px;
+	margin: 0 10px 10px 5px;
+	}
+
+#social_links ul {
+	margin: 0 0 0 45px;
+	padding: 0;
+	}
+
+#social_links ul li {
+	list-style: none inside none;
+	display: inline;
+	padding-right: 15px;
+	}
+
+#search {
+	margin: 25px 0 0 45px;
+	}
+
+#cse-search-results {
+	background: none;
+	}
+
+#template_social_links {
+	margin: 0 0 0 15px;
+	padding: 0;
+	}
+
+#template_social_links li {
+	list-style: none inside none;
+	display: inline;
+	padding-right: 3px;
+	}
+
+li iframe, li div iframe, li span iframe, li img, .googleplus {
+	vertical-align: bottom;
+}
+	
+#template_social_links a img {
+	border: none;
+	}
+
+#sponsor_table {
+	padding-left: 25px;
+	}
+
+#content_footer {
+	width: 970px;
+	height: 15px;
+	background: url('../media/images/main_bottom.png') no-repeat;
+	}
+
+#footer_header {
+	margin-top: 0px;
+	width: 970px;
+	height: 15px;
+	background: url('../media/images/main_top.png') no-repeat;
+	} 
+
+#footer_content {
+	width: 970px;
+	background: url('../media/images/main_middle.png');
+	}
+
+#footer_left {
+	width: 300px;
+	margin: 10px 10px 10px 15px;
+	float: left;
+}
+
+#footer_mid {
+	width: 300px;
+	margin: 10px 10px;
+	float: left;
+	}
+
+#footer_right {
+	width: 300px;
+	margin: 10px 15px 10px 10px;
+	float: left;
+	}
+
+/* Pagination */
+
+div.pagination {
+	padding: 3px;
+	margin: 3px;
+}
+
+div.pagination a {
+	padding: 2px 5px 2px 5px;
+	margin: 2px;
+	border: 1px solid #AAAADD;	
+	text-decoration: none; /* no underline */
+	color: #333175;
+}
+
+div.pagination a:hover, div.pagination a:active {
+	border: 1px solid #333175;
+	color: #000;
+}
+
+div.pagination span.current {
+	padding: 2px 5px 2px 5px;
+	margin: 2px;
+	border: 1px solid #333175;
+	font-weight: bold;
+	background-color: #333175;
+	color: #FFF;
+	}
+
+div.pagination span.disabled {
+	padding: 2px 5px 2px 5px;
+	margin: 2px;
+	border: 1px solid #9290bf;
+	color: #9290bf;
+	}
